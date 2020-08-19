@@ -72,6 +72,7 @@
             <RewardForTouchingBlockType>
                 <Block reward="100.0" type="diamond_block" behaviour="onceOnly"/>
             </RewardForTouchingBlockType>
+            <RewardForDistanceTraveledToCompassTarget rewardPerBlock=“1” density=“PER_TICK”/>
             <PauseCommand/>
         </AgentHandlers>
     </AgentSection>
